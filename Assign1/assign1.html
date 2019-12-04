@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assign1.css">
+</head>
+
+<body>
+
+
+    <div class="container col-md-4 ">
+        <form name="userform" action="">
+            <fieldset>
+                <div id="legend">
+                    <legend class="">Register</legend>
+                </div>
+                <hr>
+                <div class="control-group ">
+                    <!-- Username -->
+                    <label class="control-label" for="username">Username</label>
+                    <div class="form-group">
+                        <input type="text" id="username" name="username" placeholder="" class="form-control">
+                        <p class="help-block invisible" id="pusername">Username can contain only letters, without spaces
+                        </p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- Age -->
+                    <label class="control-label" for="age">Age</label>
+                    <div class="form-group">
+                        <input type="text" id="age" name="age" placeholder="" class="form-control">
+                        <p class="help-block invisible" id="page">Age can contain any  numbers, without spaces between 1 to 150</p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- Email -->
+                    <label class="control-label" for="email">Email</label>
+                    <div class="form-group">
+                        <input type="text" id="email" name="email" placeholder="" class="form-control">
+                        <p class="help-block invisible" id="pemail">Enter the valid email</p>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <!-- Phone number -->
+                    <label class="control-label" for="phno">Phone Number</label>
+                    <div class="form-group">
+                        <input type="text" id="phno" name="phno" placeholder="" class="form-control">
+                        <p class="help-block invisible " id="pphno">Enter 10 digits</p>
+                    </div>
+                </div>
+
+
+                <div class="form-group ">
+                    <button class="form-control btn btn-success" id="reg" type="button">Login</button>
+                </div>
+                
+                <div class="form-group  float-right">
+                        <button class=" btn btn-danger" id="clear" type="button">Clear</button>
+                    </div>
+                    <p class="help-block invisible " id="clear">Cleared</p>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="container col-md-6 mt-5 d-none " id="div2">
+        <table class="table table-bordered" name="ta" id="regtable">
+                <thead>
+                    <tr>
+                        <th>UserName</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+   </div>
+
+
+    <script src="assign1.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

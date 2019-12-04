@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assign3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-success">
+        <a class="navbar-brand" href="#">JAVA SCRIPT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active pl-5" id="home" >
+                    <a class="nav-link" href="#" id="home1">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item  pl-5" id="ca">
+                    <a class="nav-link" href="#">Create Account</a>
+                </li>
+                
+                <li class="nav-item  pl-5"id="sa" >
+                    <a class="nav-link" href="#" >Show Account</a>
+                </li>
+            </ul>
+           
+        </div>
+    </nav>
+
+
+
+    
+            <img src="img6.jpg" id=img alt="" width=100% height=100%>
+        
+
+
+
+
+    <div class="container col-4  offset-5 border mt-5 p-5 d-none" id="div1" style="width:400px">
+            <form name="userform" action="">
+                <fieldset>
+                    <div id="legend">
+                        <legend class="">Create Account</legend>
+                    </div>
+                    <hr>
+                    <div class="control-group mt-5">
+                        <!-- Username -->
+                        <label class="control-label" for="username">Username</label>
+                        <div class="form-group">
+                            <input type="text" id="username" name="username" placeholder="" class="form-control">
+                            <p class="help-block invisible" id="pusername">Username can contain only letters, without spaces
+                            </p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <!--Password -->
+                        <label class="control-label" for="password">Password</label>
+                        <div class="form-group">
+                            <input type="text" id="password" name="password" placeholder="" class="form-control">
+                            
+                            <p class="help-block invisible" id="ppassword">password must contain one numbers, uppercase, lowercase and  special character</p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="control-group">
+                        <!-- Phone number -->
+                        <label class="control-label" for="phno">Phone Number</label>
+                        <div class="form-group">
+                            <input type="text" id="phno" name="phno" placeholder="" class="form-control">
+                            <p class="help-block invisible " id="pphno">Enter 10 digit phone number</p>
+                        </div>
+                    </div>
+    
+    
+                    
+
+
+                    <button type="button" class="btn btn-primary" id="create">Create</button>
+                          <button type="button" class="btn btn-secondary" id="clear">Clear</button>
+                </fieldset>
+            </form>
+        </div>
+
+       
+
+
+
+        <div class="container mt-5 d-none" id="ltable">
+                <table class="table table-bordered " id="regtable">
+                        <thead>
+                            <tr>
+                                <th>User Name</th>
+                                <th>Password</th>
+                                <th>Phone</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+           </div>
+        
+
+    <script src="assign3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

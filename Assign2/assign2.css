@@ -1,0 +1,17 @@
+.addImage
+{
+  visibility: visible;
+    position: relative;
+    width: 33.33%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.changeImage
+{
+    src: url('new.jpg');
+    position: relative;
+    width: 33.33%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
